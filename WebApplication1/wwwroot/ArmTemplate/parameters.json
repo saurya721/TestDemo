@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "6ced84b8-3bfc-4e77-a811-e977cfada0c1"
+        },
+        "name": {
+            "value": "Devopsdemo1"
+        },
+        "location": {
+            "value": "Central US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-Devops-9588"
+        },
+        "serverFarmResourceGroup": {
+            "value": "Devops"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "skuCode": {
+            "value": "F1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "currentStack": {
+            "value": "dotnetcore"
+        },
+        "phpVersion": {
+            "value": "OFF"
+        },
+        "errorLink": {
+            "value": "https://Devopsdemo1.scm.azurewebsites.net/detectors?type=tools&name=eventviewer"
+        }
+    }
+}
